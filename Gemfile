@@ -13,6 +13,7 @@ gem 'connection_pool'
 gem 'redis-namespace'
 gem 'faker'
 gem 'activerecord-import'
+gem 'redlock'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
